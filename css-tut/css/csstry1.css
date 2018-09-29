@@ -59,11 +59,33 @@ div{
 
  /* CONFLICTS IN CSS */
 
- span{
+ /* span{
    color: blue;
  }
 
  span{
   color: red;
 
- }
+ } */
+
+
+ /* IMPORTANT DECLARATION */
+
+  p{
+    color: red !important;
+
+  }
+
+#main-content p {
+  color: green;
+}
+
+
+/* TARGETING MULTIPLE ELEMENTS */
+
+p, span, li, a{
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Tahoma;
+}
