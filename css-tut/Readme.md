@@ -39,3 +39,39 @@ DESCENDANT SELECTORS:
   </div>
   <h1>Text</h1>
 </body>
+
+
+CHILDREN: 
+
+```css
+#main-content > p{
+
+}
+
+> is called the child combinator,it just saying that you should give this style to all direct children that are p tags 
+
+
+ADJACENT SELECTORS: adjacent selector is a selector that selects an element which comes directly after another element...we do this by using the adjacent combinator which is the plus sign(+)
+
+
+
+ATTRIBUTE SELECTORS:
+
+```css
+a[href$='pdf']{
+  color: green; //what the $ there means is that is should pick all the href links that ends with pdf 
+}
+
+a[href^='http]{
+  color: pink; //the carrot symbol (^) there means that is should go into the a tags and pick all href that starts with http and style it.
+}
+
+
+
+PSEUDO-CLASSES:pseudo classes are special keywords that go after selectors, they are like extension of selectors..they help us target things that we could not be able to target with normally with css,things like special behavioural states,advanced structural elements.
+
+two groups: we have dynamic and structural pseduo classes
+
+Dynamic pseudo classes: allow us to style an element in relation to user actions such as... whether a link is being hovered over .whether a button is being pressed etc.
+
+Structural pseudo classes: allow us to style elements based on an advanced structural techniques not possible from oridinary Css selectors.

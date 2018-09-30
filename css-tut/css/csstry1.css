@@ -89,3 +89,11 @@ p, span, li, a{
   font-weight: bold;
   font-family: Tahoma;
 }
+
+
+/* ATTRIBUTE SELECTORS */
+
+span[class] {
+  color: yellow;
+}
+
