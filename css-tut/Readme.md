@@ -48,7 +48,7 @@ CHILDREN:
 
 }
 
-> is called the child combinator,it just saying that you should give this style to all direct children that are p tags 
+> is called the child selector or combinator,it just saying that you should give this style to all direct children that are p tags 
 
 
 ADJACENT SELECTORS: adjacent selector is a selector that selects an element which comes directly after another element...we do this by using the adjacent combinator which is the plus sign(+)
