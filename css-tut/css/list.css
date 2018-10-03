@@ -1,0 +1,47 @@
+
+/* nth Child Selectors */
+li:nth-child(1), li:nth-child(7){
+  font-weight: bold;
+}
+
+li:nth-child(even){
+  background: gray;
+}
+
+
+li:nth-child(odd){
+  background: pink;
+}
+
+li:nth-child(2n + 1){
+  color: #1890ff
+}
+
+/* nth of Type Selectors */
+ 
+article:nth-of-type(1){
+  background: #1890ff;
+}
+
+article:nth-of-type(odd){
+  background: gray;
+}
+
+article:nth-of-type(2n + 2){
+  background: gray;
+}
+
+/* COMBINING SELECTORS */
+
+article.featured-content{
+  background: orange
+}
+
+div.featured-content{
+  background: blue;
+}
+
+/* UNIVERSAL SELECTOR */
+*{
+  color: blue; 
+}

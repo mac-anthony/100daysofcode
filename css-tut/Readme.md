@@ -75,3 +75,6 @@ two groups: we have dynamic and structural pseduo classes
 Dynamic pseudo classes: allow us to style an element in relation to user actions such as... whether a link is being hovered over .whether a button is being pressed etc.
 
 Structural pseudo classes: allow us to style elements based on an advanced structural techniques not possible from oridinary Css selectors.
+
+
+nth Child Selectors:
