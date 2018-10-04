@@ -3,3 +3,37 @@
 #all-articles h2 + p{
   color: green;
 }
+
+
+/* Fontsize */
+
+ article{
+   font-size: 16px;
+ }
+
+ article h2{
+   font-size: 3em;
+ }
+
+ /* font-family */
+
+ article h2, article p {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ /* text decoration */
+
+ a{
+   text-decoration: line-through;
+ }
+
+ /* font-weight */
+
+ h1{
+   font-weight: normal;
+ }
+
+ p{
+   font-weight: bold;
+ }
