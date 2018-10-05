@@ -45,3 +45,54 @@ div.featured-content{
 *{
   color: blue; 
 }
+
+/* Transform */
+#header p {
+  text-transform: capitalize;
+}
+
+body{
+  text-transform: uppercase;
+}
+
+body > p {
+  text-transform: none;
+}
+
+
+/* Text-color */
+
+#header h1{
+  color: #1890ff;
+}
+
+p{
+  color: chocolate; 
+}
+
+#header{
+  background-color: aqua;
+}
+
+/* Styling links */
+a{
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: darkmagenta;
+  text-decoration: underline;
+}
+
+/* Letter spacing and line height */
+
+p{
+  font-size: 12px; 
+  line-height: 1em;
+}
+
+h1{
+  letter-spacing: 2px;
+}

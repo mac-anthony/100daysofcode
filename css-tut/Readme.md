@@ -85,3 +85,10 @@ fontfamily: are the style font style u give to  certain elements..
 TextDecoration: 3 main text decoration are line-through,overline and underline ,if u want an elemet to inherit the style of the parent element then we can use the inherit keyword
 
 Font-weight:this controls how dark or light the text displays on our web page
+
+
+Transform: changing the letter casing ...e.g hello=> Hellow (Capitalised)
+
+
+Text-color: 2 types=> text/foreground colour
+and background colour 
