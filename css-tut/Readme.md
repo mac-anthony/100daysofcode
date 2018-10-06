@@ -91,4 +91,6 @@ Transform: changing the letter casing ...e.g hello=> Hellow (Capitalised)
 
 
 Text-color: 2 types=> text/foreground colour
-and background colour 
+and background colour .
+
+The Box Model:this is a way that elements represent themselves on a page in terms of space
