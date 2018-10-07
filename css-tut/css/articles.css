@@ -28,6 +28,14 @@
    text-decoration: line-through;
  }
 
+ p{
+   text-decoration: overline;
+ }
+
+ a:hover{
+  text-decoration: underline;
+ }
+
  /* font-weight */
 
  h1{

@@ -94,3 +94,6 @@ Text-color: 2 types=> text/foreground colour
 and background colour .
 
 The Box Model:this is a way that elements represent themselves on a page in terms of space
+
+
+CSS ANIMATIONS: makes animating web elements much easier,it eliminates the need for javascript/jquery for a lof of abimation effects.
