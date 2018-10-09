@@ -87,7 +87,7 @@ TextDecoration: 3 main text decoration are line-through,overline and underline ,
 Font-weight:this controls how dark or light the text displays on our web page
 
 
-Transform: changing the letter casing ...e.g hello=> Hellow (Capitalised)
+Transform: changing the letter casing ...e.g hello=> Hello (Capitalised)
 
 
 Text-color: 2 types=> text/foreground colour
@@ -97,3 +97,18 @@ The Box Model:this is a way that elements represent themselves on a page in term
 
 
 CSS ANIMATIONS: makes animating web elements much easier,it eliminates the need for javascript/jquery for a lof of abimation effects.
+
+
+Transform: we can use transform to add stretch an element or change the co-ordinates of an element
+
+Scale:we have the scale which we use to scale or grow an element
+
+Translate: means move the element from one place to anothe in a web page
+
+
+Transition: takes an element from one state to another and how the element transitions between the two
+
+
+Keyframes:are basically the power houz of the css animations  
+
+Animation fill mode: decides what to do with the element outside the animation window   
