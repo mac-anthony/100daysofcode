@@ -112,3 +112,17 @@ Transition: takes an element from one state to another and how the element trans
 Keyframes:are basically the power houz of the css animations  
 
 Animation fill mode: decides what to do with the element outside the animation window   
+
+
+Repeating Animations: animation-iteration-count enables the animation to occur for the specified amount of time..
+Note: we either pass in the number of times we want the animation to occur or pass in the infinite property will we make the animation to run non-stop
+
+
+
+Animation Direction: Animation Direction properties
+
+
+Animation ShortHand:is a way we can do all our animations in just one property which is the animation property
+
+
+Animation Timing Functions: this determines the rate at which the element thats been animated kind of goes from point a to b
