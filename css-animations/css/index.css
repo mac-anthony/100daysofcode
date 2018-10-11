@@ -56,12 +56,14 @@ img{
   position: absolute;
   top: -40px;
   left: 0px;
-  animation-name: drive;
+  animation: drive 3s both infinite linear,
+              jump 0.3 1.2s ease ;
+  /* animation-name: drive;
   animation-duration: 3s;
   animation-fill-mode: both;
-  /* animation-delay: 2s; */
+  animation-delay: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear,  */
 }
 
 .luigi{
@@ -108,4 +110,10 @@ img{
 @keyframes wind{
   from{left: -300px}
   to{left: 100%}
+}
+
+@keyframes jump{
+  0%{ top: -40px}
+  50%{ top: -100px}
+  100%{top: -40px}
 }

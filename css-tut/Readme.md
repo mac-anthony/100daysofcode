@@ -125,4 +125,13 @@ Animation Direction: Animation Direction properties
 Animation ShortHand:is a way we can do all our animations in just one property which is the animation property
 
 
-Animation Timing Functions: this determines the rate at which the element thats been animated kind of goes from point a to b
+Animation Timing Functions: this determines the rate at which the element thats been animated kind of goes from point a to b.
+
+
+Chaining Animations:we chain an animation or 2 or more animation together by just using the comma at the end of each animation before starting a new one
+
+
+Animating a Pop-up: 
+
+
+Animating a Shopping Cart:
