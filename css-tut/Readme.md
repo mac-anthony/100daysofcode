@@ -135,3 +135,19 @@ Animating a Pop-up:
 
 
 Animating a Shopping Cart:
+
+
+
+
+FLEX-BOX: normally we use different positional properties such as absolute,relative etc to move element around in our page or position them where we want  and we also use something like floats to create grid layouts or navigation system you knw that kind of jazz,we also come up with fixed heights for columns that we want to be equal in height. now alot tme we wrote css for this it seemed like a lot of work for what it achieved on the page so this is where css flexbox comes in and just blows all that out of the water.
+
+flexbox is just a new css display type designed to help us craft css layout much easier. so basically it lets us control the position,the size and spacing of elements relative to their parent elements and each other  and also its very responsive.
+
+BENEFITS OF USING FLEXBOX: 
+1. we can create navigation bars and menus really easily without having to use floats or worrying about collapsing  of elements
+
+2. its easier to create great layouts / grid layouts
+
+3. its a good way to create bar charts
+
+4. its a very easier way to create equal height and columns
