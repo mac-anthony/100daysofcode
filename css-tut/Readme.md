@@ -151,3 +151,12 @@ BENEFITS OF USING FLEXBOX:
 3. its a good way to create bar charts
 
 4. its a very easier way to create equal height and columns
+
+
+
+FLEX CONTAINERS:
+
+
+flex grow: we use flex-grow to expand elements into the available space..
+
+flex-shrink : is just the opposite flex grow ,so instead of determining the rate at which they grow it determines the rate at which they shrink.
