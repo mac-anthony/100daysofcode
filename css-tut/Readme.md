@@ -154,9 +154,26 @@ BENEFITS OF USING FLEXBOX:
 
 
 
-FLEX CONTAINERS:
+FLEX CONTAINERS: In my article i gave an overview of how flexbox works and it goes like this, we first have to create a container(an element with a display type of flex so that every direct descendant of that element will then become a flex item so ones we have done that we can then control the behaviour of those flex items using several css properties either applied to the items directly or the container... 
+those behaviours include how they grow or how they shrink relatively to each other or whether they stack on top of each other or stay by side by side,you know that kind of thing. so we will create a container and some flex item within it just to look at the basic behaviour it displays. 
 
 
 flex grow: we use flex-grow to expand elements into the available space..
 
 flex-shrink : is just the opposite flex grow ,so instead of determining the rate at which they grow it determines the rate at which they shrink.
+
+
+flex-wrap: lets say we shrink our webpage to the point where we can no longer see somethings and we have to scroll sideways to view some content at the end..its doing this bcus it has reached the min-width we provided 
+
+
+flex-basis: flex basis is pretty similar to our width,it defines a starting width of  each of our element so instead of writing min-width we can say flex-basis(200px)
+
+``` css
+.box{
+  height: 100px;
+  flex: 1 0 200px;
+  //the above is an easier way of writing the shorthand notation which is the flex property and the first number in this property is representing the flex-grow,and the second number is representing the flex-shrink and the third reprsenting the flex-basis
+}
+
+
+CREATING A MENU WITH FLEX-BOX:
