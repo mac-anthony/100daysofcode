@@ -16,27 +16,31 @@ body{
 .flex-container{
   display: flex;
   flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  height: 800px;
 }
 
 .box{
   height: 100px;
-  min-width: 200px;
+  flex: 0 0 100px;
+  /* min-width: 200px; */
   /* width: 320px; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .one{
   background: red;
   /* flex-grow: 2; */
   /* flex-shrink: 1; */
-  flex-basis: 100px;
+  /* flex-basis: 200px; */
 }
 
 .two{
   background: blue;
   /* flex-grow: 3; */
   /* flex-shrink: 2 */
-  flex-basis: 200px;
+  /* flex-basis: 200px; */
 
 }
 
@@ -44,7 +48,8 @@ body{
   background: green;
   /* flex-grow: 1; */
   /* flex-shrink: 3 */
-  flex-basis: 300px; 
+  /* flex-basis: 200px;  */
+
   /*  when we apply flexgrow to the box they will all grow at the same rate  to fill up the available spaces but bcus they have a different flexbasis they are going to have a different width they will end at a different width  */
 
 }

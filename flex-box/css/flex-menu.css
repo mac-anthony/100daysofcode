@@ -38,8 +38,39 @@ nav a:hover{
 }
 
 
+/* social menu based styles */
+a.tw{
+  background: url(../image/twitter-logo.png) no-repeat center;
+  background-size: 80%;
+}
+
+a.fb{
+  background: url(../image/facebook-logo.png) no-repeat center;
+  background-size: 60%;
+}
+
+.social a{
+  text-indent: -10000px;
+}
+
+.social{
+  max-width: 80px;
+  margin: 0 auto;
+} 
+
+
 /* FLEX STYLES */
 /* note: its only when the browser  is larger than 768px are this flex properties going to come into play*/
+
+nav ul.social{
+  flex: 1 1 0;
+  display: flex;
+}
+
+nav ul.social li{
+  flex: 1 1 0;
+}
+
 
 @media screen and (min-width: 768px){
   nav ul{
@@ -52,5 +83,14 @@ nav a:hover{
     /* this will now serve as flex items in side the container */
   
     flex: 1 1 0;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social{
+    margin: 0;
   }
 }
