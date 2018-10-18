@@ -184,3 +184,10 @@ CREATING A NESTED FLEX MENU:
 
 
 Flow and axis: so far in my article we have witnessed the default behavior of our flex items which is to stack horizontally beside each other in what is a row going across. but what if we can change that default behvior or should say overide the default behavior and to do this we useb our flex flow property,we apply this property to the flex container and that controls the flow of all the element withing it or rather all the flex element within it
+
+
+Align Items on the cross axis: we use justtifycontent to apply to the main-axis,align items applies to the cross-axis
+
+
+
+Grid & Stack Layout: 
