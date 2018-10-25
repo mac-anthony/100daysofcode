@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Creating a menu with flexbox</title>
   <link rel="stylesheet" href="../css/flex-menu.css">
+ 
 </head>
 <body>
   <div class="wrapper">
@@ -24,12 +25,48 @@
       </ul>
     </nav>
 
+    <div style="margin: 20px;">
+      <span>Layout: </span>
+      <a href="#" class="stack">Stack</a>
+      <a href="#" class="grid">Grid</a>
+
+    </div>
+
     <section id="blocks">
       <article>
-        <h2></h2>
+        <h2>i pity the fool...</h2>
+        <p>this a page for tasting the flexbox grid layout and in this we will learn many things and am vbery excited to learn hope you are excited too!!!</p>
+      </article>
+
+      <article>
+        <h2>Get to the chopper...</h2>
+        <p>this a page for tasting the flexbox grid layout and in this we will learn many things and am vbery excited to learn hope you are excited too!!!</p>
+      </article>
+
+      <article>
+        <h2>what's a horse doing on a spaceship...?</h2>
+        <p>this a page for tasting the flexbox grid layout and in this we will learn many things and am vbery excited to learn hope you are excited too!!!</p>
+      </article>
+
+      <article>
+        <h2>i pity the fool...</h2>
+        <p>this a page for tasting the flexbox grid layout and in this we will learn many things and am vbery excited to learn hope you are excited too!!!</p>
       </article>
     </section>
 
-  </div>
+  </div> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script>
+    $("a.stack").on("click", function(){
+      $("article").addClass("stack");
+    });
+
+    $("a.grid").on("click", function(){
+      $("article").removeClass("stack");
+    });
+
+  </script>
 </body>
 </html>
